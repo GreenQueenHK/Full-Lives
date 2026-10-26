@@ -28,7 +28,9 @@ p{margin:0}
 ul{margin:10px 0 0 18px;padding:0}
 .nav{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border:1px solid var(--line);padding:10px 16px;border-radius:999px;z-index:10}
 .btn{border:none;background:rgba(182,92,86,.10);color:var(--accent);width:38px;height:38px;border-radius:50%;font-size:18px;cursor:pointer}
-.dots{display:flex;gap:8px}.dot{width:10px;height:10px;border-radius:50%;background:rgba(34,27,26,.18);cursor:pointer}.dot.active{background:var(--accent)}
+.dots{display:flex;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;background:rgba(34,27,26,.18);cursor:pointer}
+.dot.active{background:var(--accent)}
 .counter{font-size:12px;color:var(--muted);min-width:48px;text-align:center}
 .bgblob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.12;z-index:0}
 .print-note{position:absolute;bottom:20px;right:26px;font-size:11px;color:var(--muted)}
@@ -80,55 +82,63 @@ ul{margin:10px 0 0 18px;padding:0}
 <div class="card"><h3>Multi-platform credibility</h3><p>As the founder of Green Queen, she has already built a global media platform and developed a strong voice as both speaker and interviewer.</p></div>
 </div></div></section>
 
-<section class="slide"><div class="inner"><div class="kicker">US <> Asia bridge</div><h2 style="margin-top:14px">A platform for brands entering Asia</h2><div class="grid2">
-<div class="card"><h3>Conversation bridge</h3><p>The show becomes a trusted cultural bridge for US and European brands that want to participate in Asian health, wellness, beauty, and modern-living conversations without sounding imported or out of touch.</p></div>
-<div class="card"><h3>Content bridge</h3><p>Brands get long-form content, clip assets, and native storytelling that can be localized for Asia while still feeling globally premium and editorially credible.</p></div>
-<div class="card"><h3>Audience bridge</h3><p>The format reaches a sophisticated women’s audience in Asia while remaining legible to international viewers, creating a rare cross-border media environment.</p></div>
-<div class="card"><h3>Commercial bridge</h3><p>This creates sponsor value for launches, thought leadership, product education, and category-building campaigns across markets.</p></div>
-</div></div></section>
-
-<section class="slide"><div class="inner"><div class="kicker">Sponsor targets</div><h2 style="margin-top:14px">Tier 1 brand targets</h2><div class="grid3">
-<div class="card"><h3>Wellness</h3><p><strong>IM8</strong>, premium supplements, longevity, recovery, diagnostics, wearables.</p></div>
-<div class="card"><h3>Sexual health</h3><p><strong>Nancy</strong> and other women’s intimate wellness brands, education-led products, and modern care platforms.</p></div>
-<div class="card"><h3>Healthy eating</h3><p><strong>HeyBo</strong> and other health-forward food brands, better-for-you CPG, functional foods, and meal solutions.</p></div>
-<div class="card"><h3>Beauty / longevity</h3><p>Science-led beauty, skin health, nutraceuticals, and products at the intersection of beauty and wellness.</p></div>
-<div class="card"><h3>Women’s health</h3><p>Femtech, hormonal health, fertility, midlife health, preventive care, and modern clinics.</p></div>
-<div class="card"><h3>Premium consumer brands</h3><p>Brands seeking culturally intelligent reach with high-income women across Asia and global diaspora audiences.</p></div>
-</div></div></section>
-
-<section class="slide"><div class="inner"><div class="kicker">Guest roster</div><h2 style="margin-top:14px">Guests who fit the world of Full Lives</h2><div class="grid2">
-<div class="card"><h3>Lindsay Jang</h3><p>Yardbird, Hong Kong’s creative and wellness-led hospitality scene.</p></div>
-<div class="card"><h3>Rachel Lim</h3><p>Love, Bonito, modern Asian women’s consumer brand building.</p></div>
-<div class="card"><h3>Jean Liu</h3><p>Didi, leadership at the intersection of technology and scale.</p></div>
-<div class="card"><h3>Melanie Perkins</h3><p>Canva, design, product, and category-defining company building.</p></div>
-<div class="card"><h3>Tan Hooi Ling</h3><p>Grab, ecosystem-building, mobility, and regional influence.</p></div>
-<div class="card"><h3>Ananya Agarwal</h3><p>Nyumi, women’s health and intimate wellness for a modern audience.</p></div>
-</div></div></section>
-
-<section class="slide"><div class="inner"><div class="kicker">Format</div><h2 style="margin-top:14px">How the show works</h2><div class="grid2">
-<div class="card"><h3>Long-form interview</h3><p>One guest, one powerful conversation, one clear emotional and practical arc.</p></div>
-<div class="card"><h3>Short-form clip engine</h3><p>Every episode is built to produce highlights, soundbites, and money moments for social distribution.</p></div>
-<div class="card"><h3>Remote-first production</h3><p>Guests can join from anywhere, allowing the show to scale globally without studio dependency.</p></div>
-<div class="card"><h3>Editorial tone</h3><p>Smart, warm, aspirational, honest, and deeply human — not corporate, not preachy.</p></div>
-</div></div></section>
-
-<section class="slide"><div class="inner"><div class="kicker">Outcome</div><h2 style="margin-top:14px">What Full Lives can become</h2><div class="grid2">
-<div class="card"><h3>A cultural platform</h3><p>A place where ambitious women come to think about life, not just work.</p></div>
-<div class="card"><h3>A sponsor vehicle</h3><p>A premium environment for women’s health, wellness, and future-facing brands.</p></div>
-<div class="card"><h3>A global bridge</h3><p>A trusted channel connecting Asia with US and European conversations.</p></div>
-<div class="card"><h3>A signature brand</h3><p>A media property that can grow into video, newsletter, live events, and partnerships.</p></div>
-</div></div></section>
-
-<section class="slide"><div class="inner"><div class="kicker">Closing</div><h2 style="margin-top:14px">A show about living fully</h2><p class="lead" style="margin-top:18px">Full Lives is for women who want depth, ambition, health, softness, and meaning in the same conversation.</p><p class="sub" style="margin-top:18px">A premium, global, video-first show with a clear editorial point of view and a strong commercial path.</p></div></section>
+<div class="nav">
+  <button class="btn" id="prev">←</button>
+  <div class="dots" id="dotsContainer"></div>
+  <span class="counter" id="counter">1 / 5</span>
+  <button class="btn" id="next">→</button>
+</div>
 
 </div>
-<div class="nav"><button class="btn" onclick="move(-1)">&#8249;</button><div class="dots" id="dots"></div><button class="btn" onclick="move(1)">&#8250;</button><div class="counter" id="counter">1 / 12</div></div>
+
 <script>
-let current=1,total=12;const dots=document.getElementById('dots');for(let i=1;i<=total;i++){const d=document.createElement('div');d.className='dot'+(i===1?' active':'');d.onclick=()=>go(i);dots.appendChild(d)}
-function go(n){document.querySelector('.slide.active').classList.remove('active');current=n;document.querySelectorAll('.slide')[n-1].classList.add('active');update()}
-function move(d){let n=current+d;if(n<1)n=total;if(n>total)n=1;go(n)}
-function update(){document.getElementById('counter').textContent=current+' / '+total;document.querySelectorAll('.dot').forEach((x,i)=>x.classList.toggle('active',i+1===current))}
-document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();move(1)}if(e.key==='ArrowLeft'){e.preventDefault();move(-1)}})
+const slides = document.querySelectorAll('.slide');
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
+const counter = document.getElementById('counter');
+const dotsContainer = document.getElementById('dotsContainer');
+let currentSlide = 0;
+
+slides.forEach((_, i) => {
+  const dot = document.createElement('div');
+  dot.classList.add('dot');
+  if(i === 0) dot.classList.add('active');
+  dot.addEventListener('click', () => goToSlide(i));
+  dotsContainer.appendChild(dot);
+});
+
+const dots = document.querySelectorAll('.dot');
+
+function updateDeck() {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === currentSlide);
+  });
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+  });
+  counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+}
+
+function goToSlide(index) {
+  currentSlide = index;
+  updateDeck();
+}
+
+prevBtn.addEventListener('click', () => {
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  updateDeck();
+});
+
+nextBtn.addEventListener('click', () => {
+  currentSlide = (currentSlide + 1) % slides.length;
+  updateDeck();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === ' ') currentSlide = (currentSlide + 1) % slides.length;
+  if (e.key === 'ArrowLeft') currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  updateDeck();
+});
 </script>
 </body>
 </html>
